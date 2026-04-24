@@ -23,5 +23,5 @@ los multimplica, y nos pasa el resultado*/
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
 int esPar(int n) {
-    return (n % 2) == 0; /* version main */
+    return (n % 2) == 0; 
 }
