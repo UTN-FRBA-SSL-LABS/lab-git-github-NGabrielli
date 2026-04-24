@@ -2,7 +2,7 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-int sumar(int a, int b) {
+int sumar(const int a, const int b) {
     return a + b;
 }
 
@@ -17,6 +17,8 @@ int restar(int a, int b) {
 int multiplicar(int a, int b) {
     return a * b;
 }
+/*Este algoritmo lo que hace es agarrar dos datos que le pasamos, 
+los multimplica, y nos pasa el resultado*/
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
